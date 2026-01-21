@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Запчасти для китайских автомобилей - лучшие цены и доставка по всей России">
-    <title>AutoParts Pro - Запчасти для китайских автомобилей</title>
-    <link rel="stylesheet" href="style.css">
+    <title>INNOTEHGRUPP-CHINA-ZAP.RU - Запчасти для китайских автомобилей</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -14,138 +13,244 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <h1>AutoParts<span>Pro</span></h1>
+                    <h1>INNOTEHGRUPP-CHINA-ZAP.RU</h1>
                 </div>
                 
                 <nav class="nav" id="nav">
                     <ul class="nav-list">
-                        <li class="nav-item active"><a href="#catalog">Каталог</a></li>
-                        <li class="nav-item"><a href="#delivery">Доставка</a></li>
-                        <li class="nav-item"><a href="#stores">Магазины</a></li>
-                        <li class="nav-item"><a href="#contacts">Контакты</a></li>
+                        <li><a href="#catalog">Каталог</a></li>
+                        <li><a href="#delivery">Доставка</a></li>
+                        <li><a href="#map">Магазины</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
                     </ul>
                 </nav>
                 
                 <div class="header-actions">
-                    <div class="search-box">
-                        <input type="text" placeholder="Поиск запчастей...">
-                        <i class="fas fa-search"></i>
+                    <div class="search-container">
+                        <button class="search-toggle" id="searchToggle">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <div class="search-input" id="searchInput">
+                            <input type="text" placeholder="Поиск запчастей...">
+                            <button class="search-close" id="searchClose">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
                     </div>
                     <div class="cart-icon">
                         <i class="fas fa-shopping-cart"></i>
-                        <span class="cart-count">0</span>
                     </div>
-                    <div class="burger-menu" id="burger-menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                    <div class="phone-number">
+                        <i class="fas fa-phone"></i>
+                        <span>+7 (495) 123-45-67</span>
                     </div>
+                    <div class="burger-menu" id="burgerMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>                    </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">            <div class="hero-content">
-                <h2>Запчасти для китайских автомобилей</h2>
-                <p>Оригинальные и аналоговые запчасти для всех марок китайских автомобилей</p>
-                <a href="#catalog" class="btn btn-primary">Смотреть каталог</a>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-content">
+            <div class="mobile-header">
+                <div class="logo">
+                    <h2>INNOTEHGRUPP-CHINA-ZAP.RU</h2>
+                </div>
+                <button class="close-menu" id="closeMenu">
+                    <i class="fas fa-times"></i>
+                </button>
             </div>
             
-            <div class="brand-logos">
-                <div class="logo-item">
-                    <div class="logo-placeholder">Geely</div>
+            <nav class="mobile-nav">
+                <ul>
+                    <li><a href="#catalog">Каталог</a></li>
+                    <li><a href="#delivery">Доставка</a></li>
+                    <li><a href="#map">Магазины</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            
+            <div class="mobile-contact">
+                <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    <span>+7 (495) 123-45-67</span>
                 </div>
-                <div class="logo-item">
-                    <div class="logo-placeholder">Chery</div>
-                </div>
-                <div class="logo-item">
-                    <div class="logo-placeholder">Haval</div>
-                </div>
-                <div class="logo-item">
-                    <div class="logo-placeholder">Lifan</div>
-                </div>
-                <div class="logo-item">
-                    <div class="logo-placeholder">Great Wall</div>
-                </div>
-                <div class="logo-item">
-                    <div class="logo-placeholder">BYD</div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
-    <!-- Contact Actions -->
-    <section class="contact-actions">
+    <!-- Hero Section -->
+    <section class="hero">
         <div class="container">
-            <div class="contact-info">
-                <a href="tel:88002009266" class="phone-number">8 800 200-92-66</a>
-                <div class="social-icons">
-                    <a href="#" class="social-icon telegram"><i class="fab fa-telegram-plane"></i></a>
-                    <a href="#" class="social-icon whatsapp"><i class="fab fa-whatsapp"></i></a>
-                </div>
+            <div class="hero-content">
+                <h1>Запчасти для китайских автомобилей</h1>
+                <p class="hero-subtitle">Оригинальные и аналоговые запчасти для всех марок китайских автомобилей с доставкой по России</p>
+                <div class="hero-buttons">
+                    <a href="#catalog" class="btn btn-primary">Смотреть товары</a>
+                    <a href="tel:+74951234567" class="btn btn-secondary">Позвонить</a>
+                </div>            </div>
+            
+            <div class="brand-logos">
+                <div class="logo-item">Geely</div>
+                <div class="logo-item">Chery</div>
+                <div class="logo-item">Haval</div>
+                <div class="logo-item">Lifan</div>
+                <div class="logo-item">Great Wall</div>
+                <div class="logo-item">BYD</div>
+                <div class="logo-item">Exeed</div>
+                <div class="logo-item">Jetour</div>
             </div>
         </div>
     </section>
 
     <!-- Advantages Section -->
-    <section class="advantages" id="delivery">
+    <section class="advantages">
         <div class="container">
-            <h3>Почему выбирают нас</h3>
             <div class="advantages-grid">
                 <div class="advantage-card">
                     <div class="icon">
-                        <i class="fas fa-truck"></i>                    </div>
-                    <h4>Доставка по всей России</h4>
-                    <p>Быстрая доставка в любой регион страны</p>
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Доставка по всей России</h3>
                 </div>
                 <div class="advantage-card">
                     <div class="icon">
-                        <i class="fas fa-store"></i>
+                        <i class="fas fa-boxes"></i>
                     </div>
-                    <h4>Пункты выдачи</h4>
-                    <p>Более 500 пунктов выдачи по всей стране</p>
+                    <h3>Более 50 000 товаров</h3>
                 </div>
                 <div class="advantage-card">
                     <div class="icon">
                         <i class="fas fa-tag"></i>
                     </div>
-                    <h4>Лучшие цены</h4>
-                    <p>Гарантируем самые выгодные цены на рынке</p>
+                    <h3>Выгодные цены</h3>
                 </div>
                 <div class="advantage-card">
                     <div class="icon">
-                        <i class="fas fa-shield-alt"></i>
+                        <i class="fas fa-headset"></i>
                     </div>
-                    <h4>Гарантия качества</h4>
-                    <p>Только проверенные производители и оригинальные запчасти</p>
+                    <h3>Поддержка клиентов</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalog Section -->
+    <section class="catalog" id="catalog">
+        <div class="container">            <h2 class="section-title">Категории запчастей</h2>
+            <div class="catalog-grid">
+                <div class="catalog-card">
+                    <div class="card-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Двигатель</h3>
+                </div>
+                <div class="catalog-card">
+                    <div class="card-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Трансмиссия</h3>
+                </div>
+                <div class="catalog-card">
+                    <div class="card-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Ходовая часть</h3>
+                </div>
+                <div class="catalog-card">
+                    <div class="card-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Электрика</h3>
+                </div>
+                <div class="catalog-card">
+                    <div class="card-icon">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3>Система охлаждения</h3>
+                </div>
+                <div class="catalog-card">
+                    <div class="card-icon">
+                        <i class="fas fa-gas-pump"></i>
+                    </div>
+                    <h3>Топливная система</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Delivery Section -->
+    <section class="delivery" id="delivery">
+        <div class="container">
+            <div class="delivery-content">
+                <div class="delivery-text">
+                    <h2 class="section-title">Доставка по России</h2>
+                    <p>Осуществляем оперативную доставку запчастей во все регионы России. Собственный склад в Москве и партнерская сеть пунктов выдачи позволяют обеспечить быструю доставку в любой город.</p>
+                    <a href="#" class="btn btn-outline">Узнать условия доставки</a>                </div>
+                <div class="delivery-icons">
+                    <div class="icon-item">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>Быстрая доставка</span>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fas fa-warehouse"></i>
+                        <span>Склад в Москве</span>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Пункты выдачи</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Map Section -->
-    <section class="map-section" id="contacts">
+    <section class="map-section" id="map">
         <div class="container">
-            <div class="map-content">
-                <div class="map-info">
-                    <h3>Наши контакты</h3>
+            <h2 class="section-title">Магазины и пункты выдачи</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.287822583125!2d37.6172999!3d55.755826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5d8c4e5e5d%3A0x5e5e5e5e5e5e5e5e!2z0JHQsNC90LjRgSDQv9Cw0YDQsNC90LjQtQ!5e0!3m2!1sru!2sru!4v1620000000000!5m2!1sru!2sru" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts-content">
+                <div class="contact-info">
+                    <h2 class="section-title">Контактная информация</h2>
                     <div class="contact-details">
-                        <p><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Автозапчастная, д. 15</p>
-                        <p><i class="fas fa-phone"></i> <a href="tel:88002009266">8 800 200-92-66</a></p>
-                        <p><i class="fas fa-envelope"></i> info@autopartspro.ru</p>
-                        <p><i class="fas fa-clock"></i> Пн-Пт: 9:00-19:00, Сб: 10:00-17:00</p>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+7 (495) 123-45-67</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@innotehgrupp-china-zap.ru</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>г. Москва, ул. Автозапчастная, д. 15</span>
+                        </div>
                     </div>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-vk"></i></a>
-                        <a href="#"><i class="fab fa-telegram-plane"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
+                </div>                
+                <div class="requisites">
+                    <h3>Реквизиты компании</h3>
+                    <p>ИНН: 7701234567<br>ОГРН: 1234567890123<br>Юридический адрес: г. Москва, ул. Юридическая, д. 10</p>
+                    <a href="rekvizity.pdf" download class="btn btn-outline requisites-btn">
+                        <i class="fas fa-download"></i> Скачать реквизиты (PDF)
+                    </a>
                 </div>
-                <div class="map-container">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.287822583125!2d37.6172999!3d55.755826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5d8c4e5e5d%3A0x5e5e5e5e5e5e5e5e!2z0JHQsNC90LjRgSDQv9Cw0YDQsNC90LjQtQ!5e0!3m2!1sru!2sru!4v1620000000000!5m2!1sru!2sru" allowfullscreen="" loading="lazy"></iframe>                </div>
             </div>
         </div>
     </section>
@@ -155,7 +260,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <h2>AutoParts<span>Pro</span></h2>
+                    <h2>INNOTEHGRUPP-CHINA-ZAP.RU</h2>
                     <p>Надежные запчасти для китайских автомобилей</p>
                 </div>
                 <div class="footer-links">
@@ -163,23 +268,28 @@
                     <ul>
                         <li><a href="#catalog">Каталог</a></li>
                         <li><a href="#delivery">Доставка</a></li>
-                        <li><a href="#stores">Магазины</a></li>
+                        <li><a href="#map">Магазины</a></li>
                         <li><a href="#contacts">Контакты</a></li>
                     </ul>
                 </div>
                 <div class="footer-contact">
                     <h4>Контакты</h4>
-                    <p>8 800 200-92-66</p>
-                    <p>info@autopartspro.ru</p>
-                    <p>г. Москва, ул. Автозапчастная, д. 15</p>
+                    <p>+7 (495) 123-45-67</p>
+                    <p>info@innotehgrupp-china-zap.ru</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-vk"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 AutoPartsPro. Все права защищены.</p>
+                <p>&copy; 2026 INNOTEHGRUPP-CHINA-ZAP.RU. Все права защищены.</p>
             </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
-          </html>
+    </html>
